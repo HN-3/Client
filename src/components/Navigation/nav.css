@@ -1,0 +1,35 @@
+.hi{
+    margin: 0px -480px;
+    background-color: white;
+    border-bottom : 3px solid red;
+    overflow: visible;
+    height: 55px;
+    display: flex;
+    padding : 0px 480px
+}
+.logo{
+    display : flex;
+    border : 3px solid red;
+    flex-grow: 2;
+    justify-content: flex-start;
+    align-items: center;
+}
+.search{
+    display : flex;
+    border : 3px solid red;
+   flex-grow: 1; 
+   justify-content: center;
+   align-items: center;
+}
+.icons{
+    display : flex;
+    border : 3px solid red;
+    flex-grow: 2;
+    justify-content: flex-end;
+   align-items: center;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    margin:5px
+}
