@@ -4,7 +4,7 @@
     border : 3px solid blue;
 }
 .feed{
-    display: flex;
+    
     border : 3px solid blue;
     
     justify-content: flex-start;
@@ -19,11 +19,13 @@
     overflow: hidden;
 }
 .profileImage{
-  width:auto;
-  height: 120px;
+  width:100px;
+  height: 100px;
+  object-fit: fill;
    border : 3px solid red;
-   margin: 0 42px 0 0 ;
+   margin: 0 42px 0 10px ;
    border-radius: 50%;
+
 }
 .name{
     display: flex;
@@ -45,4 +47,39 @@
     width: 25%;
     justify-content: flex-start;
     align-items: center;
+}
+.header{
+    display: flex;
+    height: 27px;
+    padding : 16px;
+    align-items: center;
+    
+}
+.photo{
+    width: 1145px;
+    height: 1145px;
+    object-fit: fill;
+    
+}
+.contents{
+    display: flex;
+    padding: 0px 16px;
+    height: 40px;
+}
+.comment{
+    display: flex;
+    padding : 0 16px;
+    height: 55px;
+}
+.headerProfile{
+    display: flex;
+    width:45px;
+    height: 45px;
+    object-fit: fill;
+    border-radius: 50%;
+    
+}
+.headerName{
+    display: flex;
+    
 }
