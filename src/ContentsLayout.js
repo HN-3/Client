@@ -17,7 +17,6 @@ const ContentsLayout = () => {
     <div>
       <Switch>
           {routeComponents}
-            
       </Switch>
     </div>
   );
