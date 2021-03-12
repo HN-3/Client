@@ -37,10 +37,10 @@ const ContentsWrite =()=>{
            console.log(formData2.get('file'),tempfile);
 
 
-           const xhr = new XMLHttpRequest();
-           xhr.open('PUT', url);
-           xhr.setRequestHeader('Content-Type', 'image/*');
-           xhr.send(formData2);
+          //  const xhr = new XMLHttpRequest();
+          //  xhr.open('PUT', url);
+          //  xhr.setRequestHeader('Content-Type', 'image/*');
+          //  xhr.send(formData2);
           })
           
   }
