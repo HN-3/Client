@@ -16,7 +16,7 @@ function useS3Upload({
         method: 'PUT',
         body: pendingImage,
         headers: new Headers({
-          'Content-Type': 'image/*',
+          'Content-Type': 'image/jpeg',
         }),
       }),
     );

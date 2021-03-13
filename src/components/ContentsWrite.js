@@ -35,12 +35,18 @@ const ContentsWrite =()=>{
         
            formData2.append('file',tempfile);
            console.log(formData2.get('file'),tempfile);
-
-
-          //  const xhr = new XMLHttpRequest();
-          //  xhr.open('PUT', url);
-          //  xhr.setRequestHeader('Content-Type', 'image/*');
-          //  xhr.send(formData2);
+        
+        
+        fetch((url), {
+          method: 'PUT',
+              headers: { 'Content-Type': 'image/jpg', 'Content-Length': formData.size },
+              mode:'cors',
+              body: tempfile
+        })
+        console.log(formData2.data)
+               
+           
+        
           })
           
   }
